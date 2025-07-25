@@ -2,14 +2,18 @@
   "name": "proyecto-4-festival",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "sass": "sass src/scss:build/css",
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
     "sass": "^1.89.2"
   }
 }
