@@ -17,6 +17,7 @@
 }
 
 .escenarios-contenedor {
+    @include m.contenedor;
     @include m.tablet {
         @include m.grid(2, 5rem);
     }
@@ -32,6 +33,7 @@
         font-size: 3rem;
         font-weight: 900;
         text-transform: uppercase;
+        text-align: center;
     }
 }
 .edm .nombre-escenario:after{
